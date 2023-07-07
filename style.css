@@ -1,0 +1,222 @@
+* {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 320px 200px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+.play-button {
+  background-color: rgb(96, 185, 96);
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+}
+
+.play-button:hover {
+  transform: scale(1.032);
+}
+
+.play-button:active{
+  transform: scale(0.943);
+}
+
+
+
+body {
+  ackground-color: lightblue;
+}
+
+#score, #lines, #level {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.tet_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+  color: #fff;
+}
+
+.game_board {
+  border: 2px solid #fff;
+}
+
+.center_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play_btn {
+  background-color: #0f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.play_btn mark, .play_btn b {
+  color: #000;
+}
+
+.pause_btn {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.next {
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.right_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+Media query to make the layout responsive
+@media (max-width: 768px) {
+  .tet_grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right_col {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+body {
+  background-color: lightblue;
+}
+
+ Define the styles for the tetris game grid
+.tet_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+  color: #fff;
+}
+
+.game_board {
+  border: 2px solid #fff;
+}
+
+.center_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play_btn {
+  background-color: #0f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.play_btn mark, .play_btn b {
+  color: #000;
+}
+
+.pause_btn {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.next {
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.right_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+Media query to make the layout responsive
+@media (max-width: 768px) {
+  .tet_grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right_col {
+    width: 100%;
+    margin: 20px 0;
+  }
+} 
